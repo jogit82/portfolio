@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jo Chong</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="#summary"  onclick = $("#menu-close").click(); >SUMMARY</a></li>
+            <li><a href="#skills" onclick = $("#menu-close").click(); >SKILLS</a></li>
+            <li><a href="#portfolio" onclick = $("#menu-close").click(); >PORTFOLIO</a></li>
+            <li><a href="#hello" onclick = $("#menu-close").click(); >SAY HELLO</a></li>
+        </ul>
+    </nav>
+
+    <header id="summary" class="header">
+        <div class="text-vertical-center">
+            <h1>JO CHONG</h1>
+            <hr class="small">
+            <h3>
+                <p>I am currently a web development student at General Assembly. I am a web developer who is curious, patient, detail-oriented and enjoy working with people are passionate about what they do. </p>
+
+                <p>I majored in software engineering in college and worked as a JAVA, VB.Net and PHP programmer for three years. After that time, I shifted gears and became a veterinary assistant. For two years, I worked closely with veterinarians and pet owners and helped them care for their animals. </p> 
+
+                <p>During that time, I also volunteered on an environmental project as a front-end developer. That experience inspired me to learn more about web development and brought me to General Assembly. When I'm not coding, I enjoy the outdoors, hiking, tennis, volunteering, and cooking.</p>
+            </h3>
+            <br>
+        </div>
+    </header>
+
+     <!-- About -->
+    <section id="skills" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h2>Skills</h2>
+                    <hr class="small">
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Languages</h3>
+                    <p class="lead">HTML5</p>
+                    <p class="lead">CSS 3</p>
+                    <p class="lead">Javascript</p>
+                    <p class="lead">Ruby</p>
+                    <p class="lead">PHP</p>
+                    <p class="lead">VB.Net</p>
+                    <p class="lead">Java</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Front-End Tools</h3>
+                    <p class="lead">Jquery</p>
+                    <p class="lead">Bootstrap</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Frameworks</h3>
+                    <p class="lead">Node.js</p>
+                    <p class="lead">Express.js</p>
+                    <p class="lead">Ruby on Rails</p>
+                    <p class="lead">Angular.js</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Databases</h3>
+                    <p class="lead">PostgreSQL</p>
+                    <p class="lead">Sequelize</p>
+                    <p class="lead">Oracle</p>
+                    <p class="lead">IBM DB2</p>
+                    <p class="lead">mysql</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Testing Tools</h3>
+                    <p class="lead">Rspec</p>
+                    <p class="lead">Mocha</p>
+                    <p class="lead">Chai</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Others</h3>
+                    <p class="lead">AJAX</p>
+                    <p class="lead">Git</p>
+                    <p class="lead">Heroku</p>
+                    <p class="lead">Photoshop</p>
+                </div>
+                
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://mighty-lake-8559.herokuapp.com" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/fox.jpg">
+                                </a>
+                                <h3><strong>Fox.vet &rarr; Node.js | Express | Facebook | Passport</strong></h3>
+                                <h3>An app that lets veterinary professionals share medical cases and knowledge</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://drink-m8.herokuapp.com" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/drinkmate.jpg">
+                                </a>
+                                <h3><strong>DrinkMate &rarr; Ruby on Rails | Absolut API</strong></h3>
+                                <h3>Search for drink recipes and videos</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://jogit82.github.io/Jungle/" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/jungle.jpg">
+                                </a>
+                                <h3><strong>Jungle &rarr; Javascript</strong></h3>
+                                <h3>A traditional Chinese board game that resembles checkers</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer id="hello">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h2>Say Hello!</h2>
+                    <hr class="small">
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p>Seattle, Washington</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:jo.c.keller@gmail.com">jo.c.keller@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://linkedin.com/in/jochong82" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/jogit82" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Jo Chong 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
+
+</body>
+
+</html>
