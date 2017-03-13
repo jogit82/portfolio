@@ -190,6 +190,11 @@ hr.small {
 
 /* Portfolio */
 
+.profile-pic {
+  width: 300px;
+  height: 300px;
+}
+
 .portfolio {
     padding: 50px 0;
 }
