@@ -1,97 +1,356 @@
-Huey Jiuan Chong
-Software Engineer
-hueyjiuan.chong16@gmail.com
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Huey Jiuan Chong</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="icon" href="/portfolio/favicon.ico" type="image/x-icon" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand"><a href="#summary"  onclick = $("#menu-close").click(); >SUMMARY</a></li>
+            <li><a href="#skills" onclick = $("#menu-close").click(); >SKILLS</a></li>
+            <li><a href="#portfolio" onclick = $("#menu-close").click(); >PORTFOLIO</a></li>
+            <li><a href="#resume" onclick = $("#menu-close").click(); >RESUME</a></li>
+            <li><a href="#hello" onclick = $("#menu-close").click(); >SAY HELLO</a></li>
+        </ul>
+    </nav>
 
-Links:
-https://jogit82.github.io/portfolio/
-https://www.linkedin.com/in/jochong82/
-https://github.com/jogit82
+    <header id="summary" class="header">
+        <div class="text-vertical-center">
+        <br>
+        <img class="img-circle profile-pic" src="img/profile_new.jpg" alt="profile pic">
+            <h2>Huey Jiuan CHONG</h2><p>(Jo)</p>
+            <hr class="small">
+            <div class="container">
+                <div class="row">
+                    <div class="lg-offset-2 col-lg-10 md-offset-2 col-sm-10">
+                        <h3 class="text-center"><p>I have been a full-stack web developer for 3 years. I develop e-commerce websites and internal apps for an outdoor equipment manufacturer and retailer. Collaborating with a small team allows me to grow and experience different stages of software engineering process. I started on the frontend and have been given the opportunity to work on the backend, I look to improve my skill set on both in the future.</p>
+                        </h3>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </header>
 
-Summary:
-I have been a full-stack web developer for 3 years. I develop e-commerce websites and internal apps for an outdoor equipment manufacturer and retailer. Collaborating with a small team allows me to grow and experience different stages of software engineering process. I started on the frontend and have been given the opportunity to work on the backend, I look to improve my skill set on both in the future.
+     <!-- About -->
+    <section id="skills" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h2>Skills</h2>
+                    <hr class="small">
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Languages</h3>
+                    <p class="lead">Javascript</p>
+                    <p class="lead">C#</p>
+                    <p class="lead">Ruby</p>
+                    <p class="lead">PHP</p>
+                    <p class="lead">HTML5</p>
+                    <p class="lead">CSS 3</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Frameworks/Libraries</h3>
+                    <p class="lead">Backbone.js</p>
+                    <p class="lead">JQuery</p>
+                    <p class="lead">Underscore.js</p>
+                    <p class="lead">Node.js</p>
+                    <p class="lead">Express</p>
+                    <p class="lead">Angular</p>
+                    <p class="lead">React</p>
+                    <p class="lead">Ruby on Rails</p>
+                </div>
+                <div class="col-lg-4 col-sm-4 text-center">
+                    <h3>Databases</h3>
+                    <p class="lead">PostgreSQL</p>
+                    <p class="lead">MongoDB</p>
+                    <p class="lead">Oracle</p>
+                    <p class="lead">IBM DB2</p>
+                    <p class="lead">MySQL</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Test Frameworks</h3>
+                    <p class="lead">Rspec</p>
+                    <p class="lead">Mocha</p>
+                    <p class="lead">Chai</p>
+                </div>
+                <div class="col-lg-2 col-sm-2 text-center">
+                    <h3>Others</h3>
+                    <p class="lead">AJAX</p>
+                    <p class="lead">Git</p>
+                    <p class="lead">Heroku</p>
+                    <p class="lead">AWS</p>
+                    <p class="lead">Azure DevOps</p>
+                    <p class="lead">Adobe Photoshop/Illustrator</p>
+                </div>
 
-Skills:
-Html/CSS
-JavaScript
-jQuery
-Bootstrap
-Node.js
-SQL
-NOSQL
-C#
-.NET
-Blazor (Signal R)
-React.js
-Angular.js
-PHP/LAMP
-Mocha.js for test
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
 
-Education:
-1) 2017 Kal Academy (data structures and algorithm in C#)
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2 class="text-center">Work Portfolio</h2>
+            <hr class="small">
+            <!-- Sage -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.sageflyfish.com">
+                            <img class="img-portfolio img-responsive" src="img/sage_home.jpg">
+                        </a>
+                        <h3><strong>Sage &rarr; Node.js | Backbone.js | Underscore.js | Django</strong></h3>
+                        <h3>E-commerce website for my current employer who manufactures fly fishing rods and reels.</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.sageflyfish.com/product/saltwater/x-saltwater" target="_blank">
+                            <img class="img-portfolio img-responsive" src="img/sage.jpg">
+                        </a>
+                        <h3><strong>Sage &rarr; Cross selling feature</strong></h3>
+                        <h3>Selling a fly line from another brand when you add a rod to cart.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.sageflyfish.com/experience/seasons/2019-saltwater-season">
+                            <img class="img-portfolio img-responsive" src="img/sage_perfect_setups.jpg">
+                        </a>
+                        <h3><strong>Sage &rarr; Perfect Setup feature</strong></h3>
+                        <h3>Curated setup - recommended bundles.</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.sageflyfish.com/product/saltwater/x-saltwater" target="_blank">
+                            <img class="img-portfolio img-responsive" src="img/sage.jpg">
+                        </a>
+                        <h3><strong>Sage &rarr; Cross selling feature</strong></h3>
+                        <h3>Selling a fly line from another brand when you add a rod to cart.</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- RIO -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.rioproducts.com">
+                            <img class="img-portfolio img-responsive" src="img/rio_home.jpg">
+                        </a>
+                        <h3><strong>RIO &rarr; Node.js | Backbone.js | Underscore.js | Django</strong></h3>
+                        <h3>E-commerce website for my current employer who also manufactures fly lines.</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.rioproducts.com" target="_blank">
+                            <img class="img-portfolio img-responsive" src="img/rio_nav.jpg">
+                        </a>
+                        <h3><strong>RIO &rarr; New navigation</strong></h3>
+                        <h3>Due to complicated products, I recategorized RIO products and designed a new navigation.</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- RIO -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.rioproducts.com/flies">
+                            <img class="img-portfolio img-responsive" src="img/rio_filter.jpg">
+                        </a>
+                        <h3><strong>RIO &rarr; New product filters</strong></h3>
+                        <h3>Improves product search and user experience.</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.rioproducts.com" target="_blank">
+                            <img class="img-portfolio img-responsive" src="img/rio_detail.jpg">
+                        </a>
+                        <h3><strong>RIO &rarr; New product detail page</strong></h3>
+                        <h3>Improves product impression and mobile responsiveness</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- redington -->
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.redington.com">
+                            <img class="img-portfolio img-responsive" src="img/redington_home.jpg">
+                        </a>
+                        <h3><strong>Redington &rarr; Node.js | Backbone.js | Underscore.js | Django</strong></h3>
+                        <h3>E-commerce website for my current employer who also manufactures fly fishing rods and reels with a lower price line</h3>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="portfolio-item">
+                        <a href="https://www.redington.com/fly-fishing-rods" target="_blank">
+                            <img class="img-portfolio img-responsive" src="img/redington.jpg">
+                        </a>
+                        <h3><strong>RIO &rarr; New product filters</strong></h3>
+                        <h3>Improves product search and user experience.</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Fun Projects</h2>
+                    <hr class="small">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="portfolio-item">
+                                <a href="http://qwk.io" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/qwkio.jpg">
+                                </a>
+                                <h3><strong>Qwk.io &rarr; Node.js | Express | Angular | MongoDB | AWS EB2</strong></h3>
+                                <h3>Create surveys using Markdown. Markdowns are converted using certain sets of rules and then stored as documents in a MongoDB. Survey owners receive public link to share their survey have the admin control whether to edit the survey or close the survey.</h3>
+                                <p>If for some reason, this site is down, that means I am looking for free hosting, away from AWS. Please check back later! And I hope you will utilize this survey generator</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://mighty-lake-8559.herokuapp.com" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/fox.jpg">
+                                </a>
+                                <h3><strong>Fox.vet &rarr; Node.js | Express | Facebook API | Passport</strong></h3>
+                                <h3>An app that lets veterinary professionals share medical cases and knowledge</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://drink-m8.herokuapp.com" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/drinkmate.jpg">
+                                </a>
+                                <h3><strong>DrinkMate &rarr; Ruby on Rails | Absolut API</strong></h3>
+                                <h3>Search for drink recipes and videos</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="http://jogit82.github.io/Jungle/" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/jungle.jpg">
+                                </a>
+                                <h3><strong>Jungle &rarr; Javascript | HTML5 | CSS3</strong></h3>
+                                <h3>A traditional Chinese board game that resembles checkers</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a href="https://dailyhikeathon.herokuapp.com" target="_blank">
+                                    <img class="img-portfolio img-responsive" src="img/hikeathon.png">
+                                </a>
+                                <h3><strong>Hikeathon &rarr; AngularJS | Node.js | Express</strong></h3>
+                                <h3>One day mini hackathon. An app for hikers to look for trails</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <section id="resume">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h2>My Resume</h2>
+                    <hr class="small">
+                    <a href="files/Resume-HueyJiuanChong.pdf" class="page-scroll btn btn-primary" target="_blank">Open in PDF</a>
+                    <a href="files/Resume-HueyJiuanChong.docx" class="page-scroll btn btn-primary" target="_blank">Open in Microsoft Word</a>
+                    <a href="files/Resume-HueyJiuanChong.txt" class="page-scroll btn btn-primary" target="_blank">Open in Plain Text File</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
-2) 2016 General Assembly (full stack web development)
+    <!-- Footer -->
+    <footer id="hello">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                    <h2>Say Hello!</h2>
+                    <hr class="small">
+                </div>
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <p>Seattle, Washington</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fa fa-envelope-o fa-fw"></i>  <a href="mailto:hueyjiuan.chong16@gmail.com">hueyjiuan.chong16@gmail.com</a>
+                        </li>
+                    </ul>
+                    <br>
+                    <ul class="list-inline">
+                        <li>
+                            <a href="https://linkedin.com/in/jochong82" target="_blank"><i class="fa fa-linkedin fa-fw fa-3x"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/jogit82" target="_blank"><i class="fa fa-github fa-fw fa-3x"></i></a>
+                        </li>
+                    </ul>
+                    <hr class="small">
+                    <p class="text-muted">Copyright &copy; Huey Jiuan Chong 2020</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-3) 2003 to 2008 Bachelor’s degree (Computer Science)
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-4) 2007 to Infosys Global Education Center (Java J2EE industrial)
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
 
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
 
-Professional Experience:
-1) Far Bank Enterprises (Software Engineer from 2017 to Current)
-Owned all websites at this company, including the main consumer facing ones: 
--	Redington.com
--	RioProducts.com
--	SageFlyfish.com
--	Implemented cross selling between brands which increases revenue. It also improves the consumer experience and tying brands together.
--	Designed new site navigation and recategorized products to provide a better shopping experience. 
--	Configured Google Analytics and E-commerce tracking to facilitate ad tracking and product performance report. 
--	Created a coherent theme among the disparate product websites.
--	Frontend development on internal apps during ERP transition.
--	Introduced sprints and agile methodology to my team.
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
 
-2) Point Inside Inc (Data Content Technician	from 2016 to 2017)
-Point Inside provides digital in-store product location solutions for top retailers
-to help mobile shoppers search, plan and complete their in-store shopping
-trips.
--	Designed and updated maps for retail stores, airports and shopping malls
-graphically using Adobe Photoshop and Adobe Illustrator. Frequent team
-meetings regarding the best graphic standards and its scalability.
--	Embedded product information provided by retail partners into store maps
-using a proprietary software.
--	Expanded my role by automating several manual scripts improving throughput by 80% for 11 people.
--	Extensive testing was done towards these maps by loading them on mobile
-devices or tablets. Fixed errors coming from either the graphic files (SVG) in
-Adobe Illustrator or the XML files in notepad++.
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
 
-3) General Assembly (Student in 2016 for 4 months)
--	Retrained my programming skill set by diving deep in web development. It was an excellent refresher on advance JavaScript and introduction on newer frameworks such as Angular, Bootstrap and Node.js. 
--	Developed and designed functional, beautiful and robust full stack web applications from scratch. 
--	Defined user interaction using flow diagrams, appropriately modeled data, developed clear wireframes and learned to use git for team collaboration. 
--	Gained an understanding of how to write high-quality and modularized JavaScript code, learned to write dynamic client-side scripts for web apps using modern JavaScript libraries such as Angular and Bootstrap. 
--	Learned MVC frameworks and how to use some of them.
--	Wrote server-side scripts that run on modern server environment like Node.js.
--	Built quality APIs and integrated external APIs into my projects.
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    </script>
 
-4) Banfield Pet Hospital (Veterinarian Assistant from 2013 to 2016)
--	Performed initial evaluation of an animal’s condition, cleaned and wrapped wounds, checked vital statistics, collected samples and administered medication under the order or supervision of a veterinarian.
--	Performed basic lab work, including urinalysis, blood tests, ear swabs, fecal tests and radiology so that veterinarians can diagnosed a pet.
--	Helped in patient examinations and surgical procedures by restraining animals when necessary, stocked examination room and surgery rooms with supplies, sterilizing tools and ensured that equipment is in working order.
--	Communicated with pet owners to gather any concern, client observations requests and insights. Updated owners with test results, recommended treatment plan and pet’s situation so that both the veterinarian and owner are on the same page.
--	Updated patient files to be as comprehensive as possible and included every detail from body temperature to discharge notes.
+</body>
 
-5) Online Marketplace (Entrepreneur from 2011 to 2013)
-I was the sole owner of an online marketplace which I designed using basic web technologies like HTML, CSS, jQuery and JavaScript. I designed and handmade one of a kind custom-designed stuffed animal (e.g. a tiger wearing Detroit Tigers jersey) and baby-related products such as bibs, insulated bottle warmers, etc. with their name on it.
-
-6) DHL Data Center (Software Engineer from 2008 to 2010)
-DHL Integration Solutions are online web services integration capabilities that provides DHL service availability, transit times, rates, shipment, courier pickup and shipment tracking for over 165 countries around the world.
--	Gathered application requirements, wrote program specification documents with class diagrams, flow charts and entity-relationship diagrams. Then performed Function Point Analysis (FPA) as a sizing measure of clear business significance which directly related to the business requirements that the software is intended to address.
--	Designed user interfaces according to the 8 Golden Rules of Interface Design. Made sure that the interface design is consistent across the web app, visual feedbacks, status updates and error handling.
--	Built simple prototypes for web apps using Java J2EE technologies such as JDBC, EJB, JSP, Java Servlets and JMS.
-
-7) Infosys Global Education Center (Trainee in 2007 fpr 6 weeks)
-I was given this opportunity by Infosys (India) and my university. It included a full-time 4-month training that involved world-class instructors on Java (specifically J2EE) and Oracle. We were asked to build web applications using J2EE, HTML, CSS and JavaScript. Every assignment includes developing web apps from the ground up using JSP, AJAX, JDBC, Apache, etc.
-
-8) Vector International (Software Engineer from 2006 to 2007)
--	As a converted intern, I built an attendance report using LAMP stack which integrates with HID employee badges. It comes with full technical documentation consisting flow charts, entity diagrams and data flow diagrams. 
--	Designed touch screen interfaces using VB.Net that integrated between Windows Embedded System and Merten hardware. It is used in smart homes which lets users control smart home devices such as light switches and TV through the touch screen.
-
+</html>
