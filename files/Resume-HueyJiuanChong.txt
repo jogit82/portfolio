@@ -1,0 +1,95 @@
+Huey Jiuan Chong
+Software Engineer
+hueyjiuan.chong16@gmail.com
+
+Links:
+https://jogit82.github.io/portfolio/
+https://www.linkedin.com/in/jochong82/
+https://github.com/jogit82
+
+Summary:
+I have been a full-stack web developer for 3 years. I develop e-commerce websites and internal apps for an outdoor equipment manufacturer and retailer. Collaborating with a small team allows me to grow and experience different stages of software engineering process. I started on the frontend and have been given the opportunity to work on the backend, I look to improve my skill set on both in the future.
+
+Skills:
+Html/CSS
+JavaScript
+jQuery
+Bootstrap
+Node.js
+SQL
+NOSQL
+C#
+.NET
+Blazor (Signal R)
+React.js
+Angular.js
+PHP/LAMP
+Mocha.js for test
+
+Education:
+1) 2017 Kal Academy (data structures and algorithm in C#)
+
+2) 2016 General Assembly (full stack web development)
+
+3) 2003 to 2008 Bachelor’s degree (Computer Science)
+
+4) 2007 to Infosys Global Education Center (Java J2EE industrial)
+
+
+Professional Experience:
+1) Far Bank Enterprises (Software Engineer from 2017 to Current)
+Owned all websites at this company, including the main consumer facing ones: 
+-	Redington.com
+-	RioProducts.com
+-	SageFlyfish.com
+-	Implemented cross selling between brands which increases revenue. It also improves the consumer experience and tying brands together.
+-	Designed new site navigation and recategorized products to provide a better shopping experience. 
+-	Configured Google Analytics and E-commerce tracking to facilitate ad tracking and product performance report. 
+-	Created a coherent theme among the disparate product websites.
+-	Frontend development on internal apps during ERP transition.
+-	Introduced sprints and agile methodology to my team.
+
+2) Point Inside Inc (Data Content Technician	from 2016 to 2017)
+Point Inside provides digital in-store product location solutions for top retailers
+to help mobile shoppers search, plan and complete their in-store shopping
+trips.
+-	Designed and updated maps for retail stores, airports and shopping malls
+graphically using Adobe Photoshop and Adobe Illustrator. Frequent team
+meetings regarding the best graphic standards and its scalability.
+-	Embedded product information provided by retail partners into store maps
+using a proprietary software.
+-	Expanded my role by automating several manual scripts improving throughput by 80% for 11 people.
+-	Extensive testing was done towards these maps by loading them on mobile
+devices or tablets. Fixed errors coming from either the graphic files (SVG) in
+Adobe Illustrator or the XML files in notepad++.
+
+3) General Assembly (Student in 2016 for 4 months)
+-	Retrained my programming skill set by diving deep in web development. It was an excellent refresher on advance JavaScript and introduction on newer frameworks such as Angular, Bootstrap and Node.js. 
+-	Developed and designed functional, beautiful and robust full stack web applications from scratch. 
+-	Defined user interaction using flow diagrams, appropriately modeled data, developed clear wireframes and learned to use git for team collaboration. 
+-	Gained an understanding of how to write high-quality and modularized JavaScript code, learned to write dynamic client-side scripts for web apps using modern JavaScript libraries such as Angular and Bootstrap. 
+-	Learned MVC frameworks and how to use some of them.
+-	Wrote server-side scripts that run on modern server environment like Node.js.
+-	Built quality APIs and integrated external APIs into my projects.
+
+4) Banfield Pet Hospital (Veterinarian Assistant from 2013 to 2016)
+-	Helped in patient examinations and surgical procedures by restraining animals when necessary, stocked examination room and surgery rooms with supplies, sterilizing tools and ensured that equipment is in working order.
+-	Communicated with pet owners to gather any concern, client observations requests and insights. Updated owners with test results, recommended treatment plan and pet’s situation so that both the veterinarian and owner are on the same page.
+
+
+5) Online Marketplace (Entrepreneur from 2011 to 2013)
+I was the sole owner of an online marketplace which I designed using basic web technologies like HTML, CSS, jQuery and JavaScript. I designed and handmade one of a kind custom-designed stuffed animal (e.g. a tiger wearing Detroit Tigers jersey) and baby-related products such as bibs, insulated bottle warmers, etc. with their name on it.
+
+6) DHL Data Center (Software Engineer from 2008 to 2010)
+DHL Integration Solutions are online web services integration capabilities that provides DHL service availability, transit times, rates, shipment, courier pickup and shipment tracking for over 165 countries around the world.
+-	Gathered application requirements, wrote program specification documents with class diagrams, flow charts and entity-relationship diagrams. Then performed Function Point Analysis (FPA) as a sizing measure of clear business significance which directly related to the business requirements that the software is intended to address.
+-	Designed user interfaces according to the 8 Golden Rules of Interface Design. Made sure that the interface design is consistent across the web app, visual feedbacks, status updates and error handling.
+-	Built simple prototypes for web apps using Java J2EE technologies such as JDBC, EJB, JSP, Java Servlets and JMS.
+
+7) Infosys Global Education Center (Trainee in 2007 fpr 6 weeks)
+I was given this opportunity by Infosys (India) and my university. It included a full-time 4-month training that involved world-class instructors on Java (specifically J2EE) and Oracle. We were asked to build web applications using J2EE, HTML, CSS and JavaScript. Every assignment includes developing web apps from the ground up using JSP, AJAX, JDBC, Apache, etc.
+
+8) Vector International (Software Engineer from 2006 to 2007)
+-	As a converted intern, I built an attendance report using LAMP stack which integrates with HID employee badges. It comes with full technical documentation consisting flow charts, entity diagrams and data flow diagrams. 
+-	Designed touch screen interfaces using VB.Net that integrated between Windows Embedded System and Merten hardware. It is used in smart homes which lets users control smart home devices such as light switches and TV through the touch screen.
+
